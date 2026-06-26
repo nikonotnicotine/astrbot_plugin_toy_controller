@@ -17,6 +17,6 @@
   "vibrate_cmd_template": {
     "description": "花样指令模板 (含 {mode} 和 {level} 变量)",
     "type": "string",
-    "default": "55 03 00 00 {mode} {level} 00"
+    "default": "55 03 00 00 {mode} {level} AA"
   }
 }
