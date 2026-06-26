@@ -1,0 +1,22 @@
+{
+  "toy_api_url": {
+    "description": "本地控制脚本的API地址",
+    "type": "string",
+    "default": "http://127.0.0.1:8080/command"
+  },
+  "stop_cmd": {
+    "description": "停止指令",
+    "type": "string",
+    "default": "55 04 00 00 00 00 AA"
+  },
+  "speed_cmd_template": {
+    "description": "纯强度指令模板 (含 {intensity} 变量)",
+    "type": "string",
+    "default": "55 04 00 00 01 {intensity} AA"
+  },
+  "vibrate_cmd_template": {
+    "description": "花样指令模板 (含 {mode} 和 {level} 变量)",
+    "type": "string",
+    "default": "55 03 00 00 {mode} {level} 00"
+  }
+}

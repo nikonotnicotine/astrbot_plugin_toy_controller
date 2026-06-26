@@ -1,0 +1,6 @@
+name: astrbot_plugin_toy_controller
+display_name: AI控制玩具
+desc: 拦截 LLM 回复中的特定标签输出并控制对应设备。
+version: v1.0.0
+author: nikonotnicotine
+repo: https://github.com/nikonotnicotine/astrbot_plugin_toy_controller_text
